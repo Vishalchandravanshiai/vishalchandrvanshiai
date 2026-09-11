@@ -1,0 +1,7 @@
+Pillow
+numpy
+opencv-python-headless
+rembg
+onnxruntime
+fonttools
+brotli
