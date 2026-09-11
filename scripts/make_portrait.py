@@ -38,10 +38,10 @@ from PIL import Image
 from rembg import remove
 
 RAMP = "  ..::--==++**##%%@@"     # bright/sparse -> dark/dense; leading space = blank
-COLS = 90                 # below ~88 the face muddies; far above it dominates
+COLS = 120                 # below ~88 the face muddies; far above it dominates
 CLAHE_CLIP = 3.0           # higher amplifies skin texture into noise
 GAMMA = 1.0                # ramp mapping exponent
-CURVE = 0.8               # the darkening curve — the difference-maker
+CURVE = 0.7               # the darkening curve — the difference-maker
 CROP_BOTTOM = 0.0          # fraction to trim off the bottom (torso, chair)
 ROW_RATIO = 0.48           # monospace cells are about twice as tall as wide
 
